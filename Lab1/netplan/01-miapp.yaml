@@ -1,0 +1,11 @@
+# Ejemplo de configuración Netplan para IP estática (Ubuntu).
+# ¡Revisar el nombre de la interfaz de red!
+network:
+  version: 2
+  ethernets:
+    enp0s3:  # Cambia este nombre según tu interfaz de red (usa `ip link`)
+      addresses: [192.168.1.50/24]  # IP estática con su máscara de subred (en notación CIDR)
+      gateway4: 192.168.1.1         # Puerta de enlace predeterminada (gateway)
+      nameservers:                  # Servidores DNS
+        search: [localdomain]       # Dominio de búsqueda local (opcional)
+        addresses: [1.1.1.1,8.8.8.8] # Lista de servidores DNS (Cloudflare y Google)

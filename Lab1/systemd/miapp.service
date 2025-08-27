@@ -1,0 +1,16 @@
+[Unit]
+Description=Mi App 12-Factor (Flask)
+After=network-online.target
+
+[Service]
+Environment=PORT=8080
+Environment=MESSAGE=Hola
+Environment=RELEASE=v0
+WorkingDirectory={{APP_DIR}}
+ExecStart={{APP_DIR}}/.venv/bin/python {{APP_DIR}}/app.py
+Restart=always
+RestartSec=2
+User={{USER}}
+
+[Install]
+WantedBy=multi-user.target
