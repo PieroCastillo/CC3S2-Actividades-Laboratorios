@@ -1,5 +1,8 @@
+# archivos temporales, se generan con makefile
 Lab1/bdd
 Lab1/bin
 Lab1/include
 Lab1/lib
 Lab1/lib64
+# archivos de certificados, deben ser privados
+Lab1/certs
