@@ -6,3 +6,5 @@ Lab1/lib
 Lab1/lib64
 # archivos de certificados, deben ser privados
 Lab1/certs
+*.crt
+*.key
