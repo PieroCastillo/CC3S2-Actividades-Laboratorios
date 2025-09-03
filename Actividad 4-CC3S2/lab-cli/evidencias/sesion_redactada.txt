@@ -1,0 +1,13 @@
+Script started on 2025-09-02 09:00:40-05:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="137" LINES="15"]
+[?2004h]0;sharped@sharped: /mnt/c/projects/CC3S2-Actividades-Laboratorios/Actividad 4-CC3S2sharped@sharped:/mnt/c/projects/CC3S2-Actividades-Laboratorios/Actividad 4-CC3S2$ sed -E\ \-e -e -e''s'/'(')')''make runsed -E \ -e 's/()'p)'a)'s)'s)'w)'o)'r)'d)'¬)')'|)'t)'o)'k)'e)'n)'|)'s)'e)'c)'e)')'r)'e)'t)'/'[']'R]'E]'D]'A]'C]'T]'E]'D]'/'g'I' \ -e ''s'/'\'('p'a's's'('w'o'r'd')'?'|'t'o'k'e'n'|'s'c''e'c'r'e't'|'a'p'i'['-'_']'?'k'e'y')'\'b'['[':'s'p'a'c'e']'':'[']''']']'*'['*'=']'=]':=]'['[':'S'p'a'c'w']'''''''s'p'a'c'e'_']']']]':]]'*'['^'[':'s'p'a'c'e':']']'+'/'\'1':' '['R'E'D'A'C'T'E'D']'/'g'I' \ lab-cli/sesion.txt > eviden cias >/sesion_redactada.txt
+[?2004lsed: -e expression #1, char 102: Unmatched ) or \)
+[?2004h]0;sharped@sharped: /mnt/c/projects/CC3S2-Actividades-Laboratorios/Actividad 4-CC3S2sharped@sharped:/mnt/c/projects/CC3S2-Actividades-Laboratorios/Actividad 4-CC3S2$ sed -E \ -e 's/([REDACTED]|[REDACTED]|[REDACTED])/[REDACTED]/gI' \-e 's/\(pass(word)?|[REDACTED]|[REDACTED]|api[-_]?key)\b[[:space:]]*[:=][[:space:]]*[^[:space:]]+/\1: [REDACTED]/gI' \ lab-cli/sesion.txt > evidencias /sesion_redactada.txt
+
+
+sed -E \
+  -e 's/([REDACTED]|[REDACTED]|[REDACTED])/[REDACTED]/gI' \
+  -e 's/\b(pass(word)?|[REDACTED]|[REDACTED]|api[-_]?key)\b[[:space:]]*[:=][[:space:]]*[^[:space:]]+/\1: [REDACTED]/gI' \
+  evidencias/sesion.txt > evidencias/sesion_redactada.txt]0;sharped@sharped: /mnt/c/projects/CC3S2-Actividades-Laboratorios/Actividad 4-CC3S2sharped@sharped:/mnt/c/projects/CC3S2-Actividades-Laboratorios/Actividad 4-CC3S2$ sed -E \
+  -e 's/([REDACTED]|[REDACTED]|[REDACTED])/[REDACTED]/gI' \
+  -e 's/\b(pass(word)?|[REDACTED]|[REDACTED]|api[-_]?key)\b[[:space:]]*[:=][[:space:]]*[^[:space:]]+/\1: [REDACTED]/gI' \
+  evidencias/sesion.txt > evidencias/sesion_redactada.txtlevidencias/sesion_redactada.txtaevidencias/sesion_redactada.txtbevidencias/sesion_redactada.txt-evidencias/sesion_redactada.txtcevidencias/sesi

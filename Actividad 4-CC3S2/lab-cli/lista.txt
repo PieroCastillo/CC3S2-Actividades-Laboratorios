@@ -1,0 +1,7 @@
+archivo1.txt
+archivo2.txt
+archivo3.txt
+archivo4.doc
+evidencias
+lista.txt
+Hola
